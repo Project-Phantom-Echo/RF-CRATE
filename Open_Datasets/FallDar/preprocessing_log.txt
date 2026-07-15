@@ -1,0 +1,132 @@
+CSI_Processed/20200601
+Success: 21
+Failure: 72
+
+CSI_Processed/20200706
+Success: 1
+Failure: 99
+
+CSI_Processed/20200712
+Success: 0
+Failure: 10
+
+CSI_Processed/20200705
+Success: 53
+Failure: 97
+
+CSI_Processed/20200623
+Success: 2
+Failure: 58
+
+CSI_Processed/20200708
+Success: 1
+Failure: 39
+
+CSI_Processed/20200614
+Success: 29
+Failure: 163
+
+CSI_Processed/20200713
+Success: 27
+Failure: 53
+
+CSI_Processed/20200525
+Success: 0
+Failure: 44
+
+CSI_Processed/20200709
+Success: 24
+Failure: 46
+
+CSI_Processed/20200526
+Success: 0
+Failure: 10
+
+CSI_Processed/20200601
+Success: 55
+Failure: 2
+
+CSI_Processed/20200706
+Success: 4
+Failure: 95
+
+CSI_Processed/20200712
+Success: 1
+Failure: 9
+
+CSI_Processed/20200705
+Success: 97
+Failure: 0
+
+CSI_Processed/20200623
+Success: 3
+Failure: 55
+
+CSI_Processed/20200708
+Success: 38
+Failure: 1
+
+CSI_Processed/20200614
+Success: 160
+Failure: 3
+
+CSI_Processed/20200713
+Success: 43
+Failure: 10
+
+CSI_Processed/20200525
+Success: 0
+Failure: 44
+
+CSI_Processed/20200709
+Success: 46
+Failure: 0
+
+CSI_Processed/20200526
+Success: 0
+Failure: 10
+
+CSI_Processed/20200601
+Success: 2
+Failure: 0
+
+CSI_Processed/20200706
+Success: 95
+Failure: 0
+
+CSI_Processed/20200712
+Success: 8
+Failure: 1
+
+CSI_Processed/20200705
+Success: 0
+Failure: 0
+
+CSI_Processed/20200623
+Success: 53
+Failure: 2
+
+CSI_Processed/20200708
+Success: 1
+Failure: 0
+
+CSI_Processed/20200614
+Success: 0
+Failure: 3
+
+CSI_Processed/20200713
+Success: 10
+Failure: 0
+
+CSI_Processed/20200525
+Success: 44
+Failure: 0
+
+CSI_Processed/20200709
+Success: 0
+Failure: 0
+
+CSI_Processed/20200526
+Success: 10
+Failure: 0
+

@@ -1,0 +1,144 @@
+CSI_Processed/20181208/user2
+Success: 3000
+Failure: 0
+
+CSI_Processed/20181128/user6
+Success: 4091
+Failure: 409
+
+CSI_Processed/20181211_1/user8
+Success: 4478
+Failure: 22
+
+CSI_Processed/20181211/user3
+Success: 4480
+Failure: 20
+
+CSI_Processed/20181209/user6
+Success: 4492
+Failure: 8
+
+CSI_Processed/20181205/user3
+Success: 4495
+Failure: 5
+
+CSI_Processed/20181117/user4
+Success: 4480
+Failure: 20
+
+CSI_Processed/20181127/user5
+Success: 4364
+Failure: 136
+
+CSI_Processed/20181118/user2
+Success: 3835
+Failure: 665
+
+CSI_Processed/20181208/user3
+Success: 2232
+Failure: 18
+
+CSI_Processed/20181209/user2
+Success: 749
+Failure: 1
+
+CSI_Processed/20181130_3/user15
+Success: 6731
+Failure: 19
+
+CSI_Processed/20181130_1/user12
+Success: 6678
+Failure: 72
+
+CSI_Processed/20181130_2/user14
+Success: 6727
+Failure: 23
+
+CSI_Processed/20181204/user1
+Success: 6731
+Failure: 19
+
+CSI_Processed/20181130/user17
+Success: 6231
+Failure: 519
+
+CSI_Processed/20181116/user1
+Success: 8614
+Failure: 386
+
+CSI_Processed/20181121/user1
+Success: 8996
+Failure: 4
+
+CSI_Processed/20181211_1/user9
+Success: 4486
+Failure: 14
+
+CSI_Processed/20181118/user3
+Success: 4260
+Failure: 240
+
+CSI_Processed/20181205/user2
+Success: 3729
+Failure: 21
+
+CSI_Processed/20181211/user7
+Success: 4481
+Failure: 19
+
+CSI_Processed/20181127/user2
+Success: 4491
+Failure: 9
+
+CSI_Processed/20181115/user1
+Success: 10746
+Failure: 54
+
+CSI_Processed/20181130_1/user11
+Success: 6734
+Failure: 16
+
+CSI_Processed/20181130_3/user16
+Success: 6717
+Failure: 33
+
+CSI_Processed/20181112/user2
+Success: 13891
+Failure: 1109
+
+CSI_Processed/20181130_2/user13
+Success: 6741
+Failure: 9
+
+CSI_Processed/20181130/user10
+Success: 6714
+Failure: 36
+
+CSI_Processed/20181109/user2
+Success: 16595
+Failure: 1405
+
+CSI_Processed/20181130/user5
+Success: 6730
+Failure: 20
+
+CSI_Processed/20181121/user2
+Success: 17897
+Failure: 103
+
+CSI_Processed/20181112/user1
+Success: 14825
+Failure: 175
+
+CSI_Processed/20181109/user1
+Success: 17139
+Failure: 861
+
+CSI_Processed/20181121/user3
+Success: 17600
+Failure: 400
+
+CSI_Processed/20181109/user3
+Success: 7244
+Failure: 1756
+

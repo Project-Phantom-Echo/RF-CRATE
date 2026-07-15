@@ -1,0 +1,11 @@
+A_Removed/
+__pycache__/
+*.py[cod]
+logs/
+runs/
+upload_separate/
+._*
+move_unused_artifacts.py
+remove_macos_metadata.py
+used_exp.md
+.DS_Store

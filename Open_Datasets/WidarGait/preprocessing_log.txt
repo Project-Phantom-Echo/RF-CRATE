@@ -1,0 +1,60 @@
+CSI_Processed/20190707/user1
+Success: 0
+Failure: 240
+
+CSI_Processed/20190718/user8
+Success: 924
+Failure: 276
+
+CSI_Processed/20190719/user10
+Success: 1164
+Failure: 36
+
+CSI_Processed/20190719/user2
+Success: 474
+Failure: 6
+
+CSI_Processed/20190719/user1
+Success: 162
+Failure: 318
+
+CSI_Processed/20190718/user9
+Success: 1200
+Failure: 0
+
+CSI_Processed/20190706/user3
+Success: 2382
+Failure: 18
+
+CSI_Processed/20190627/user2
+Success: 2370
+Failure: 30
+
+CSI_Processed/20190713/user6
+Success: 2322
+Failure: 78
+
+CSI_Processed/20190707/user4
+Success: 2394
+Failure: 6
+
+CSI_Processed/20190706/user2
+Success: 0
+Failure: 240
+
+CSI_Processed/20190719/user11
+Success: 561
+Failure: 639
+
+CSI_Processed/20190713/user5
+Success: 1858
+Failure: 31
+
+CSI_Processed/20190627/user1
+Success: 1369
+Failure: 1031
+
+CSI_Processed/20190713/user7
+Success: 2169
+Failure: 230
+
