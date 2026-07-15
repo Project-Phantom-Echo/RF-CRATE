@@ -6,7 +6,7 @@
 
 Published at [UbiComp / ISWC 2026](https://www.ubicomp.org/ubicomp-iswc-2026/).
 
-RF-CRATE architecture
+![RF-CRATE Architecture](./figures/RF_CRATE_overview3.png)
 
 ## Overview
 
@@ -121,13 +121,13 @@ experiment YAML files refer to these locations.
 
 | Paper / dataset name                                      | Repository path                                          | Availability and preparation                                                                                                                                               |
 | --------------------------------------------------------- | -------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Widar3.0 (Widar3G6, Widar3G16, and cross-domain settings) | `[Open_Datasets/widar3](Open_Datasets/widar3)`           | Download from the sources and follow `[README.ipynb](Open_Datasets/widar3/README.ipynb)` for preprocessing.                                                                |
-| GaitID / Widar Gait                                       | `[Open_Datasets/WidarGait](Open_Datasets/WidarGait)`     | Download from the Widar3.0 source and follow `[README.ipynb](Open_Datasets/WidarGait/README.ipynb)`.                                                                       |
-| OPERAnet                                                  | `[Open_Datasets/OPERAnet](Open_Datasets/OPERAnet)`       | Download from Figshare and follow `[README.ipynb](Open_Datasets/OPERAnet/README.ipynb)` to build the UWB databases.                                                        |
-| HuPR                                                      | `[Open_Datasets/HuPR](Open_Datasets/HuPR)`               | Request/download the original dataset and follow `[README.ipynb](Open_Datasets/HuPR/README.ipynb)` to generate radar maps.                                                 |
-| WiP-pose / OctoNetMini                                    | `[Open_Datasets/OctoNetMini](Open_Datasets/OctoNetMini)` | [Download prepared data](REPLACE_WITH_OCTONETMINI_DOWNLOAD_URL), then consult `[README.ipynb](Open_Datasets/OctoNetMini/README.ipynb)` for the preparation workflow.       |
-| WiP-breath / RPI-AX200                                    | `[Open_Datasets/RPI-AX200](Open_Datasets/RPI-AX200)`     | [Download prepared data](REPLACE_WITH_RPI_AX200_DOWNLOAD_URL), then consult `[README.ipynb](Open_Datasets/RPI-AX200/README.ipynb)` for preprocessing details.              |
-| FallDar preprocessing materials                           | `[Open_Datasets/FallDar](Open_Datasets/FallDar)`         | Obtain the raw data under its original terms and follow `[README.md](Open_Datasets/FallDar/README.md)`. FallDar is not used by the active paper experiment configurations. |
+| Widar3.0 (Widar3G6, Widar3G16, and cross-domain settings) | [Open_Datasets/widar3](Open_Datasets/widar3)           | Download from the sources and follow [README.ipynb](Open_Datasets/widar3/README.ipynb) for preprocessing.                                                                |
+| GaitID / Widar Gait                                       | [Open_Datasets/WidarGait](Open_Datasets/WidarGait)     | Download from the Widar3.0 source and follow [README.ipynb](Open_Datasets/WidarGait/README.ipynb).                                                                       |
+| OPERAnet                                                  | [Open_Datasets/OPERAnet](Open_Datasets/OPERAnet)       | Download from Figshare and follow [README.ipynb](Open_Datasets/OPERAnet/README.ipynb) to build the UWB databases.                                                        |
+| HuPR                                                      | [Open_Datasets/HuPR](Open_Datasets/HuPR)              | Request/download the original dataset and follow [README.ipynb](Open_Datasets/HuPR/README.ipynb) to generate radar maps.                                                 |
+| WiP-pose / OctoNetMini                                    | [Open_Datasets/OctoNetMini](Open_Datasets/OctoNetMini) | [Download prepared data](REPLACE_WITH_OCTONETMINI_DOWNLOAD_URL), then consult [README.ipynb](Open_Datasets/OctoNetMini/README.ipynb) for the preparation workflow.       |
+| WiP-breath / RPI-AX200                                    | [Open_Datasets/RPI-AX200](Open_Datasets/RPI-AX200)     | [Download prepared data](REPLACE_WITH_RPI_AX200_DOWNLOAD_URL), then consult [README.ipynb](Open_Datasets/RPI-AX200/README.ipynb) for preprocessing details.              |
+| FallDar preprocessing materials                           | [Open_Datasets/FallDar](Open_Datasets/FallDar)         | Obtain the raw data under its original terms and follow [README.md](Open_Datasets/FallDar/README.md). FallDar is not used by the active paper experiment configurations. |
 
 
 Public datasets are not redistributed here. Their corresponding directories
@@ -356,13 +356,7 @@ corresponding paper notebooks without regenerating these records.
 
 ## Citation
 
-Please cite:
-
-> Xie Zhang, Yina Wang, and Chenshu Wu. “RF-CRATE: Towards White-Box Deep
-> Wireless Sensing.” UbiComp / ISWC 2026.
-
-BibTeX and DOI information will be added when the final publication metadata
-is available.
+The final citation and BibTeX entry are coming soon.
 
 ## License
 
