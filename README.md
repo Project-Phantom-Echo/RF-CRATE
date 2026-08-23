@@ -125,8 +125,8 @@ experiment YAML files refer to these locations.
 | GaitID / Widar Gait                                       | [Open_Datasets/WidarGait](Open_Datasets/WidarGait)     | Download from the Widar3.0 source and follow [README.ipynb](Open_Datasets/WidarGait/README.ipynb).                                                                       |
 | OPERAnet                                                  | [Open_Datasets/OPERAnet](Open_Datasets/OPERAnet)       | Download from Figshare and follow [README.ipynb](Open_Datasets/OPERAnet/README.ipynb) to build the UWB databases.                                                        |
 | HuPR                                                      | [Open_Datasets/HuPR](Open_Datasets/HuPR)              | Request/download the original dataset and follow [README.ipynb](Open_Datasets/HuPR/README.ipynb) to generate radar maps.                                                 |
-| WiP-pose / OctoNetMini                                    | [Open_Datasets/OctoNetMini](Open_Datasets/OctoNetMini) | [Download prepared data](REPLACE_WITH_OCTONETMINI_DOWNLOAD_URL), then consult [README.ipynb](Open_Datasets/OctoNetMini/README.ipynb) for the preparation workflow.       |
-| WiP-breath / RPI-AX200                                    | [Open_Datasets/RPI-AX200](Open_Datasets/RPI-AX200)     | [Download prepared data](REPLACE_WITH_RPI_AX200_DOWNLOAD_URL), then consult [README.ipynb](Open_Datasets/RPI-AX200/README.ipynb) for preprocessing details.              |
+| WiP-pose / OctoNetMini                                    | [Open_Datasets/OctoNetMini](Open_Datasets/OctoNetMini) | [Download prepared data](https://huggingface.co/buckets/hku-aiot/RF-CRATE/resolve/OctoNetMini.zip?download=true), then consult [README.ipynb](Open_Datasets/OctoNetMini/README.ipynb) for the preparation workflow.       |
+| WiP-breath / RPI-AX200                                    | [Open_Datasets/RPI-AX200](Open_Datasets/RPI-AX200)     | [Download prepared data](https://huggingface.co/buckets/hku-aiot/RF-CRATE/resolve/RPI-AX200.zip?download=true), then consult [README.ipynb](Open_Datasets/RPI-AX200/README.ipynb) for preprocessing details.              |
 | FallDar preprocessing materials                           | [Open_Datasets/FallDar](Open_Datasets/FallDar)         | Obtain the raw data under its original terms and follow [README.md](Open_Datasets/FallDar/README.md). FallDar is not used by the active paper experiment configurations. |
 
 
@@ -138,7 +138,7 @@ with each dataset's license and citation requirements.
 Extract each prepared-data archive so that its top-level directory matches the
 repository path in the table.
 
-For the Widar3.0 and GaitID experiments, [download `valid_file_lists.zip`](REPLACE_WITH_VALID_FILE_LISTS_DOWNLOAD_URL)
+For the Widar3.0 and GaitID experiments, [download `valid_file_lists.zip`](https://huggingface.co/buckets/hku-aiot/RF-CRATE/resolve/valid_file_lists.zip?download=true)
 and extract it into `Datasets/`, producing `Datasets/valid_file_lists/`. These
 cached valid-sample paths and labels let the dataset loaders skip the expensive
 data-sanitization scan when using lazy loading.
@@ -148,9 +148,9 @@ data-sanitization scan when using lazy loading.
 
 | Bundle            | Download                                               | Extract to                  | Purpose                                                                                  |
 | ----------------- | ------------------------------------------------------ | --------------------------- | ---------------------------------------------------------------------------------------- |
-| Paper result logs | [Download](REPLACE_WITH_LOGS_DOWNLOAD_URL)             | `logs/`                     | Pickle records loaded by the performance and ablation notebooks                          |
-| TensorBoard runs  | [Download](REPLACE_WITH_RUNS_DOWNLOAD_URL)             | `runs/`                     | Training histories corresponding to the released logs                                    |
-| White-box results | [Download](REPLACE_WITH_OPEN_BOX_RESULTS_DOWNLOAD_URL) | `open_rfcrate_box_results/` | Feature, attention, QKV, label, and attribute records for the interpretability notebooks |
+| Paper result logs | [Download](https://huggingface.co/buckets/hku-aiot/RF-CRATE/resolve/logs.zip?download=true)             | `logs/`                     | Pickle records loaded by the performance and ablation notebooks                          |
+| TensorBoard runs  | [Download](https://huggingface.co/buckets/hku-aiot/RF-CRATE/resolve/runs.zip?download=true)             | `runs/`                     | Training histories corresponding to the released logs                                    |
+| White-box results | [Download](https://huggingface.co/buckets/hku-aiot/RF-CRATE/resolve/open_rfcrate_box_results.zip?download=true) | `open_rfcrate_box_results/` | Feature, attention, QKV, label, and attribute records for the interpretability notebooks |
 
 
 Preserve the directory structure when extracting the archives. TensorBoard
