@@ -1,0 +1,7 @@
+{
+  "arm": "released",
+  "loss": 10799.0859375,
+  "seconds_per_step": 0.031248383037745953,
+  "memory": 294682624,
+  "note": "Repeated real batch; excludes I/O and validation"
+}

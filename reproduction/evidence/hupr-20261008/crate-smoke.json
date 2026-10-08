@@ -1,0 +1,7 @@
+{
+  "arm": "crate",
+  "loss": 11048.33203125,
+  "seconds_per_step": 0.03407968431711197,
+  "memory": 1584061952,
+  "note": "Repeated real batch; excludes I/O and validation"
+}

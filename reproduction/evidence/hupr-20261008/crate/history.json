@@ -1,0 +1,156 @@
+[
+  {
+    "epoch": 1,
+    "train_loss": 13261.48304818104,
+    "validation_loss": 9091.327764217503,
+    "validation_mpjpe": 126.66925811767578,
+    "seconds": 42.519487926736474
+  },
+  {
+    "epoch": 2,
+    "train_loss": 3841.897594231603,
+    "validation_loss": 853.9691680595024,
+    "validation_mpjpe": 35.0626335144043,
+    "seconds": 42.6270607393235
+  },
+  {
+    "epoch": 3,
+    "train_loss": 519.6009563689536,
+    "validation_loss": 473.8134294116239,
+    "validation_mpjpe": 25.185997009277344,
+    "seconds": 42.032579101622105
+  },
+  {
+    "epoch": 4,
+    "train_loss": 472.9595176441691,
+    "validation_loss": 474.4754794739535,
+    "validation_mpjpe": 25.199316024780273,
+    "seconds": 43.209464345127344
+  },
+  {
+    "epoch": 5,
+    "train_loss": 473.17508073708206,
+    "validation_loss": 474.48526724768607,
+    "validation_mpjpe": 25.194435119628906,
+    "seconds": 42.80024752020836
+  },
+  {
+    "epoch": 6,
+    "train_loss": 473.2956925134166,
+    "validation_loss": 473.86274230330673,
+    "validation_mpjpe": 25.20092010498047,
+    "seconds": 44.40817200578749
+  },
+  {
+    "epoch": 7,
+    "train_loss": 473.4078844992223,
+    "validation_loss": 474.1117511431739,
+    "validation_mpjpe": 25.186555862426758,
+    "seconds": 46.28091213479638
+  },
+  {
+    "epoch": 8,
+    "train_loss": 473.6926583982891,
+    "validation_loss": 474.6488789261543,
+    "validation_mpjpe": 25.21156120300293,
+    "seconds": 42.432824505493045
+  },
+  {
+    "epoch": 9,
+    "train_loss": 473.518629219032,
+    "validation_loss": 476.27880459201515,
+    "validation_mpjpe": 25.219778060913086,
+    "seconds": 44.6472086943686
+  },
+  {
+    "epoch": 10,
+    "train_loss": 473.80495974647965,
+    "validation_loss": 476.0198407232965,
+    "validation_mpjpe": 25.27475357055664,
+    "seconds": 43.24115017615259
+  },
+  {
+    "epoch": 11,
+    "train_loss": 473.52992781897086,
+    "validation_loss": 474.14636282665293,
+    "validation_mpjpe": 25.2106990814209,
+    "seconds": 41.69782144576311
+  },
+  {
+    "epoch": 12,
+    "train_loss": 473.35940482188863,
+    "validation_loss": 474.6975361596763,
+    "validation_mpjpe": 25.233861923217773,
+    "seconds": 42.696657272055745
+  },
+  {
+    "epoch": 13,
+    "train_loss": 473.56644265774895,
+    "validation_loss": 475.70306499137575,
+    "validation_mpjpe": 25.19158363342285,
+    "seconds": 44.07847541756928
+  },
+  {
+    "epoch": 14,
+    "train_loss": 473.5140135512888,
+    "validation_loss": 474.183249583402,
+    "validation_mpjpe": 25.203731536865234,
+    "seconds": 41.39448047056794
+  },
+  {
+    "epoch": 15,
+    "train_loss": 473.7291520881073,
+    "validation_loss": 474.4421303900237,
+    "validation_mpjpe": 25.175983428955078,
+    "seconds": 42.99751520343125
+  },
+  {
+    "epoch": 16,
+    "train_loss": 473.4826052587445,
+    "validation_loss": 474.3935273887086,
+    "validation_mpjpe": 25.193832397460938,
+    "seconds": 42.33228241465986
+  },
+  {
+    "epoch": 17,
+    "train_loss": 473.325438200884,
+    "validation_loss": 475.1900115584022,
+    "validation_mpjpe": 25.268564224243164,
+    "seconds": 45.82575018145144
+  },
+  {
+    "epoch": 18,
+    "train_loss": 473.2516626978355,
+    "validation_loss": 474.2424550942711,
+    "validation_mpjpe": 25.203943252563477,
+    "seconds": 45.92863595671952
+  },
+  {
+    "epoch": 19,
+    "train_loss": 473.5522319480641,
+    "validation_loss": 474.0271037329018,
+    "validation_mpjpe": 25.170085906982422,
+    "seconds": 46.21873334608972
+  },
+  {
+    "epoch": 20,
+    "train_loss": 473.5163122484387,
+    "validation_loss": 474.29690130705706,
+    "validation_mpjpe": 25.20517349243164,
+    "seconds": 44.202750120311975
+  },
+  {
+    "epoch": 21,
+    "train_loss": 473.3660488418533,
+    "validation_loss": 475.6746630434843,
+    "validation_mpjpe": 25.21045684814453,
+    "seconds": 40.15644406154752
+  },
+  {
+    "epoch": 22,
+    "train_loss": 473.34878090159873,
+    "validation_loss": 475.02921485683396,
+    "validation_mpjpe": 25.223573684692383,
+    "seconds": 44.96819753572345
+  }
+]

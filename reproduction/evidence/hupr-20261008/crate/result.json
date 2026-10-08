@@ -1,0 +1,27 @@
+{
+  "arm": "crate",
+  "in_domain": {
+    "samples": 14032,
+    "mean": 25.135076916442085,
+    "population_sd": 12.17581479616485
+  },
+  "cross_domain": {
+    "samples": 49792,
+    "mean": 24.661661103137966,
+    "population_sd": 11.779831584371035
+  },
+  "paper_notebook_mean": 24.898369009790024,
+  "paper_notebook_spread": 11.977823190267943,
+  "seed": 41,
+  "trained_epochs": 23,
+  "selected_epoch": 3,
+  "last_saved_resume_epoch": 22,
+  "slurm_job": "318131",
+  "selected_weights_verified": true,
+  "best_checkpoint_sha256": "71c44b08db8227ce7ee3a442a25d1324e2333cc1aed6535a5bf12c3304278d6b",
+  "prediction_sha256": {
+    "reproduction_crate_crate_small_1008135329.pkl": "e8193023201528dd7c9f00dd1667ba0153231752edbdfe9f6b48e07c6de885aa",
+    "reproduction_crate_crate_small_1008135329_indomain_test.pkl": "b05968090a128bf89434aa40549bdc881cb5d190a5ab52bf8348b74f172c2f4c"
+  },
+  "elapsed_seconds": 1069
+}

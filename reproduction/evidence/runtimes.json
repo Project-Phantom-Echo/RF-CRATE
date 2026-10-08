@@ -1,0 +1,70 @@
+{
+  "source": "Slurm sacct, checked2026-10-08",
+  "runs": [
+    {
+      "job": 318129,
+      "arm": "released",
+      "seed": 41,
+      "state": "COMPLETED",
+      "exit_code": "0:0",
+      "elapsed_seconds": 3751,
+      "node": "gpu07",
+      "gpus": 1,
+      "gpu_type": "H100",
+      "cpus": 12,
+      "memory_GiB": 64
+    },
+    {
+      "job": 318130,
+      "arm": "ssr",
+      "seed": 41,
+      "state": "COMPLETED",
+      "exit_code": "0:0",
+      "elapsed_seconds": 3423,
+      "node": "gpu07",
+      "gpus": 1,
+      "gpu_type": "H100",
+      "cpus": 12,
+      "memory_GiB": 64
+    },
+    {
+      "job": 318131,
+      "arm": "crate",
+      "seed": 41,
+      "state": "COMPLETED",
+      "exit_code": "0:0",
+      "elapsed_seconds": 1069,
+      "node": "gpu07",
+      "gpus": 1,
+      "gpu_type": "H100",
+      "cpus": 12,
+      "memory_GiB": 64
+    },
+    {
+      "job": 318133,
+      "arm": "released",
+      "seed": 42,
+      "state": "COMPLETED",
+      "exit_code": "0:0",
+      "elapsed_seconds": 4037,
+      "node": "gpu07",
+      "gpus": 1,
+      "gpu_type": "H100",
+      "cpus": 12,
+      "memory_GiB": 64
+    },
+    {
+      "job": 318134,
+      "arm": "ssr",
+      "seed": 42,
+      "state": "COMPLETED",
+      "exit_code": "0:0",
+      "elapsed_seconds": 3517,
+      "node": "gpu01",
+      "gpus": 1,
+      "gpu_type": "H100",
+      "cpus": 12,
+      "memory_GiB": 64
+    }
+  ]
+}

@@ -1,0 +1,309 @@
+Training and Testing!
+The configuration file is found at:  Configurations/HuPR/reproduction_released.yaml
+The device is:  cuda
+The log filename is:  reproduction_released_rf_crate_mini_1008135727
+The cross domain experiments!
+Mapped HuPR: 117 sequences 70200 frames; missing requested IDs: [0, 82, 111, 112, 113, 114, 115, 116, 117, 126, 127, 128, 129, 130, 131, 132, 142, 143, 144, 145, 146, 221, 222, 227]
+finish the train, val, and indomain test loading
+Adjusting learning rate of group 0 to 1.0000e-04.
+Start training!
+Adjusting learning rate of group 0 to 2.0000e-04.
+Epoch 0, Average Loss (train set) 14424.5485223927, Average Reconstruction Loss (train set) 0.0000000000
+Epoch 0, Average Loss (valid set) 11406.5892301970, Average Reconstruction Loss (valid set) 0.0000000000
+Adjusting learning rate of group 0 to 3.0000e-04.
+Epoch 1, Average Loss (train set) 6463.5161908274, Average Reconstruction Loss (train set) 0.0000000000
+Epoch 1, Average Loss (valid set) 2539.9240364936, Average Reconstruction Loss (valid set) 0.0000000000
+Adjusting learning rate of group 0 to 4.0000e-04.
+Epoch 2, Average Loss (train set) 926.0601951808, Average Reconstruction Loss (train set) 0.0000000000
+Epoch 2, Average Loss (valid set) 433.5497718907, Average Reconstruction Loss (valid set) 0.0000000000
+Adjusting learning rate of group 0 to 5.0000e-04.
+Epoch 3, Average Loss (train set) 399.3126182208, Average Reconstruction Loss (train set) 0.0000000000
+Epoch 3, Average Loss (valid set) 362.1423352719, Average Reconstruction Loss (valid set) 0.0000000000
+Adjusting learning rate of group 0 to 6.0000e-04.
+Epoch 4, Average Loss (train set) 350.1702001508, Average Reconstruction Loss (train set) 0.0000000000
+Epoch 4, Average Loss (valid set) 344.2563450986, Average Reconstruction Loss (valid set) 0.0000000000
+Adjusting learning rate of group 0 to 7.0000e-04.
+Epoch 5, Average Loss (train set) 334.2105066827, Average Reconstruction Loss (train set) 0.0000000000
+Epoch 5, Average Loss (valid set) 326.7644118132, Average Reconstruction Loss (valid set) 0.0000000000
+Adjusting learning rate of group 0 to 8.0000e-04.
+Epoch 6, Average Loss (train set) 325.4793298600, Average Reconstruction Loss (train set) 0.0000000000
+Epoch 6, Average Loss (valid set) 327.5643955174, Average Reconstruction Loss (valid set) 0.0000000000
+Adjusting learning rate of group 0 to 9.0000e-04.
+Epoch 7, Average Loss (train set) 323.2189721336, Average Reconstruction Loss (train set) 0.0000000000
+Epoch 7, Average Loss (valid set) 324.5553508485, Average Reconstruction Loss (valid set) 0.0000000000
+Adjusting learning rate of group 0 to 9.8015e-04.
+Epoch 8, Average Loss (train set) 319.5150509634, Average Reconstruction Loss (train set) 0.0000000000
+Epoch 8, Average Loss (valid set) 312.1710521041, Average Reconstruction Loss (valid set) 0.0000000000
+Adjusting learning rate of group 0 to 9.7553e-04.
+Epoch 9, Average Loss (train set) 307.7112713150, Average Reconstruction Loss (train set) 0.0000000000
+Epoch 9, Average Loss (valid set) 310.5892830895, Average Reconstruction Loss (valid set) 0.0000000000
+Adjusting learning rate of group 0 to 9.7044e-04.
+Epoch 10, Average Loss (train set) 308.8108298815, Average Reconstruction Loss (train set) 0.0000000000
+Epoch 10, Average Loss (valid set) 321.1321255239, Average Reconstruction Loss (valid set) 0.0000000000
+Adjusting learning rate of group 0 to 9.6489e-04.
+Epoch 11, Average Loss (train set) 308.3235396179, Average Reconstruction Loss (train set) 0.0000000000
+Epoch 11, Average Loss (valid set) 322.5518461116, Average Reconstruction Loss (valid set) 0.0000000000
+Adjusting learning rate of group 0 to 9.5888e-04.
+Epoch 12, Average Loss (train set) 321.4254018442, Average Reconstruction Loss (train set) 0.0000000000
+Epoch 12, Average Loss (valid set) 324.9712394097, Average Reconstruction Loss (valid set) 0.0000000000
+Adjusting learning rate of group 0 to 9.5241e-04.
+Epoch 13, Average Loss (train set) 318.5904235608, Average Reconstruction Loss (train set) 0.0000000000
+Epoch 13, Average Loss (valid set) 318.6807119963, Average Reconstruction Loss (valid set) 0.0000000000
+Adjusting learning rate of group 0 to 9.4550e-04.
+Epoch 14, Average Loss (train set) 312.3714272867, Average Reconstruction Loss (train set) 0.0000000000
+Epoch 14, Average Loss (valid set) 320.1334410856, Average Reconstruction Loss (valid set) 0.0000000000
+Adjusting learning rate of group 0 to 9.3815e-04.
+Epoch 15, Average Loss (train set) 308.3045348194, Average Reconstruction Loss (train set) 0.0000000000
+Epoch 15, Average Loss (valid set) 307.1344322283, Average Reconstruction Loss (valid set) 0.0000000000
+Adjusting learning rate of group 0 to 9.3037e-04.
+Epoch 16, Average Loss (train set) 306.5959778992, Average Reconstruction Loss (train set) 0.0000000000
+Epoch 16, Average Loss (valid set) 296.6061343429, Average Reconstruction Loss (valid set) 0.0000000000
+Adjusting learning rate of group 0 to 9.2216e-04.
+Epoch 17, Average Loss (train set) 299.2946016491, Average Reconstruction Loss (train set) 0.0000000000
+Epoch 17, Average Loss (valid set) 298.1907685648, Average Reconstruction Loss (valid set) 0.0000000000
+Adjusting learning rate of group 0 to 9.1354e-04.
+Epoch 18, Average Loss (train set) 290.3928479134, Average Reconstruction Loss (train set) 0.0000000000
+Epoch 18, Average Loss (valid set) 289.0587626232, Average Reconstruction Loss (valid set) 0.0000000000
+Adjusting learning rate of group 0 to 9.0451e-04.
+Epoch 19, Average Loss (train set) 292.1545507785, Average Reconstruction Loss (train set) 0.0000000000
+Epoch 19, Average Loss (valid set) 295.3500273649, Average Reconstruction Loss (valid set) 0.0000000000
+Adjusting learning rate of group 0 to 8.9508e-04.
+Epoch 20, Average Loss (train set) 293.7886266969, Average Reconstruction Loss (train set) 0.0000000000
+Epoch 20, Average Loss (valid set) 293.3904559180, Average Reconstruction Loss (valid set) 0.0000000000
+Adjusting learning rate of group 0 to 8.8526e-04.
+Epoch 21, Average Loss (train set) 288.8932405605, Average Reconstruction Loss (train set) 0.0000000000
+Epoch 21, Average Loss (valid set) 285.0286352664, Average Reconstruction Loss (valid set) 0.0000000000
+Adjusting learning rate of group 0 to 8.7506e-04.
+Epoch 22, Average Loss (train set) 277.4891489139, Average Reconstruction Loss (train set) 0.0000000000
+Epoch 22, Average Loss (valid set) 287.1954522997, Average Reconstruction Loss (valid set) 0.0000000000
+Adjusting learning rate of group 0 to 8.6448e-04.
+Epoch 23, Average Loss (train set) 274.0518211202, Average Reconstruction Loss (train set) 0.0000000000
+Epoch 23, Average Loss (valid set) 279.9384769975, Average Reconstruction Loss (valid set) 0.0000000000
+Adjusting learning rate of group 0 to 8.5355e-04.
+Epoch 24, Average Loss (train set) 274.4871316695, Average Reconstruction Loss (train set) 0.0000000000
+Epoch 24, Average Loss (valid set) 279.0457476939, Average Reconstruction Loss (valid set) 0.0000000000
+Adjusting learning rate of group 0 to 8.4227e-04.
+Epoch 25, Average Loss (train set) 272.6271542488, Average Reconstruction Loss (train set) 0.0000000000
+Epoch 25, Average Loss (valid set) 281.3405796168, Average Reconstruction Loss (valid set) 0.0000000000
+Adjusting learning rate of group 0 to 8.3066e-04.
+Epoch 26, Average Loss (train set) 268.9553248861, Average Reconstruction Loss (train set) 0.0000000000
+Epoch 26, Average Loss (valid set) 274.1040391215, Average Reconstruction Loss (valid set) 0.0000000000
+Adjusting learning rate of group 0 to 8.1871e-04.
+Epoch 27, Average Loss (train set) 266.7225152337, Average Reconstruction Loss (train set) 0.0000000000
+Epoch 27, Average Loss (valid set) 273.5430766924, Average Reconstruction Loss (valid set) 0.0000000000
+Adjusting learning rate of group 0 to 8.0645e-04.
+Epoch 28, Average Loss (train set) 262.7080592703, Average Reconstruction Loss (train set) 0.0000000000
+Epoch 28, Average Loss (valid set) 271.9491068406, Average Reconstruction Loss (valid set) 0.0000000000
+Adjusting learning rate of group 0 to 7.9389e-04.
+Epoch 29, Average Loss (train set) 263.0408704578, Average Reconstruction Loss (train set) 0.0000000000
+Epoch 29, Average Loss (valid set) 274.1880903951, Average Reconstruction Loss (valid set) 0.0000000000
+Adjusting learning rate of group 0 to 7.8104e-04.
+Epoch 30, Average Loss (train set) 265.7024761768, Average Reconstruction Loss (train set) 0.0000000000
+Epoch 30, Average Loss (valid set) 272.0719139769, Average Reconstruction Loss (valid set) 0.0000000000
+Adjusting learning rate of group 0 to 7.6791e-04.
+Epoch 31, Average Loss (train set) 258.3532560169, Average Reconstruction Loss (train set) 0.0000000000
+Epoch 31, Average Loss (valid set) 271.8741607492, Average Reconstruction Loss (valid set) 0.0000000000
+Adjusting learning rate of group 0 to 7.5452e-04.
+Epoch 32, Average Loss (train set) 257.5106597251, Average Reconstruction Loss (train set) 0.0000000000
+Epoch 32, Average Loss (valid set) 268.1823519943, Average Reconstruction Loss (valid set) 0.0000000000
+Adjusting learning rate of group 0 to 7.4088e-04.
+Epoch 33, Average Loss (train set) 255.6595577715, Average Reconstruction Loss (train set) 0.0000000000
+Epoch 33, Average Loss (valid set) 268.6583411675, Average Reconstruction Loss (valid set) 0.0000000000
+Adjusting learning rate of group 0 to 7.2700e-04.
+Epoch 34, Average Loss (train set) 253.9214387563, Average Reconstruction Loss (train set) 0.0000000000
+Epoch 34, Average Loss (valid set) 264.2292481165, Average Reconstruction Loss (valid set) 0.0000000000
+Adjusting learning rate of group 0 to 7.1289e-04.
+Epoch 35, Average Loss (train set) 251.7271254287, Average Reconstruction Loss (train set) 0.0000000000
+Epoch 35, Average Loss (valid set) 265.1396334745, Average Reconstruction Loss (valid set) 0.0000000000
+Adjusting learning rate of group 0 to 6.9857e-04.
+Epoch 36, Average Loss (train set) 249.3039059161, Average Reconstruction Loss (train set) 0.0000000000
+Epoch 36, Average Loss (valid set) 262.8244538606, Average Reconstruction Loss (valid set) 0.0000000000
+Adjusting learning rate of group 0 to 6.8406e-04.
+Epoch 37, Average Loss (train set) 247.2950210803, Average Reconstruction Loss (train set) 0.0000000000
+Epoch 37, Average Loss (valid set) 261.4634209245, Average Reconstruction Loss (valid set) 0.0000000000
+Adjusting learning rate of group 0 to 6.6937e-04.
+Epoch 38, Average Loss (train set) 247.8002027146, Average Reconstruction Loss (train set) 0.0000000000
+Epoch 38, Average Loss (valid set) 257.2247274436, Average Reconstruction Loss (valid set) 0.0000000000
+Adjusting learning rate of group 0 to 6.5451e-04.
+Epoch 39, Average Loss (train set) 244.7579217001, Average Reconstruction Loss (train set) 0.0000000000
+Epoch 39, Average Loss (valid set) 261.0371564041, Average Reconstruction Loss (valid set) 0.0000000000
+Adjusting learning rate of group 0 to 6.3950e-04.
+Epoch 40, Average Loss (train set) 241.8845900098, Average Reconstruction Loss (train set) 0.0000000000
+Epoch 40, Average Loss (valid set) 256.8842292359, Average Reconstruction Loss (valid set) 0.0000000000
+Adjusting learning rate of group 0 to 6.2434e-04.
+Epoch 41, Average Loss (train set) 239.0697863964, Average Reconstruction Loss (train set) 0.0000000000
+Epoch 41, Average Loss (valid set) 254.1089886934, Average Reconstruction Loss (valid set) 0.0000000000
+Adjusting learning rate of group 0 to 6.0907e-04.
+Epoch 42, Average Loss (train set) 241.4951088624, Average Reconstruction Loss (train set) 0.0000000000
+Epoch 42, Average Loss (valid set) 255.7882892082, Average Reconstruction Loss (valid set) 0.0000000000
+Adjusting learning rate of group 0 to 5.9369e-04.
+Epoch 43, Average Loss (train set) 237.9893448664, Average Reconstruction Loss (train set) 0.0000000000
+Epoch 43, Average Loss (valid set) 251.5330350521, Average Reconstruction Loss (valid set) 0.0000000000
+Adjusting learning rate of group 0 to 5.7822e-04.
+Epoch 44, Average Loss (train set) 236.6909545620, Average Reconstruction Loss (train set) 0.0000000000
+Epoch 44, Average Loss (valid set) 253.1199106458, Average Reconstruction Loss (valid set) 0.0000000000
+Adjusting learning rate of group 0 to 5.6267e-04.
+Epoch 45, Average Loss (train set) 235.1456410138, Average Reconstruction Loss (train set) 0.0000000000
+Epoch 45, Average Loss (valid set) 251.7728650953, Average Reconstruction Loss (valid set) 0.0000000000
+Adjusting learning rate of group 0 to 5.4705e-04.
+Epoch 46, Average Loss (train set) 234.1651774351, Average Reconstruction Loss (train set) 0.0000000000
+Epoch 46, Average Loss (valid set) 252.9452359103, Average Reconstruction Loss (valid set) 0.0000000000
+Adjusting learning rate of group 0 to 5.3140e-04.
+Epoch 47, Average Loss (train set) 233.8218138211, Average Reconstruction Loss (train set) 0.0000000000
+Epoch 47, Average Loss (valid set) 255.4402994745, Average Reconstruction Loss (valid set) 0.0000000000
+Adjusting learning rate of group 0 to 5.1571e-04.
+Epoch 48, Average Loss (train set) 232.4518505201, Average Reconstruction Loss (train set) 0.0000000000
+Epoch 48, Average Loss (valid set) 251.0952676493, Average Reconstruction Loss (valid set) 0.0000000000
+Adjusting learning rate of group 0 to 5.0000e-04.
+Epoch 49, Average Loss (train set) 230.3078420343, Average Reconstruction Loss (train set) 0.0000000000
+Epoch 49, Average Loss (valid set) 248.1347821191, Average Reconstruction Loss (valid set) 0.0000000000
+Adjusting learning rate of group 0 to 4.8429e-04.
+Epoch 50, Average Loss (train set) 227.6036963651, Average Reconstruction Loss (train set) 0.0000000000
+Epoch 50, Average Loss (valid set) 246.4775198194, Average Reconstruction Loss (valid set) 0.0000000000
+Adjusting learning rate of group 0 to 4.6860e-04.
+Epoch 51, Average Loss (train set) 226.3361436792, Average Reconstruction Loss (train set) 0.0000000000
+Epoch 51, Average Loss (valid set) 248.1406115333, Average Reconstruction Loss (valid set) 0.0000000000
+Adjusting learning rate of group 0 to 4.5295e-04.
+Epoch 52, Average Loss (train set) 224.8694935946, Average Reconstruction Loss (train set) 0.0000000000
+Epoch 52, Average Loss (valid set) 246.3684129008, Average Reconstruction Loss (valid set) 0.0000000000
+Adjusting learning rate of group 0 to 4.3733e-04.
+Epoch 53, Average Loss (train set) 224.0409348786, Average Reconstruction Loss (train set) 0.0000000000
+Epoch 53, Average Loss (valid set) 244.9015097537, Average Reconstruction Loss (valid set) 0.0000000000
+Adjusting learning rate of group 0 to 4.2178e-04.
+Epoch 54, Average Loss (train set) 221.9833619138, Average Reconstruction Loss (train set) 0.0000000000
+Epoch 54, Average Loss (valid set) 245.1985315651, Average Reconstruction Loss (valid set) 0.0000000000
+Adjusting learning rate of group 0 to 4.0631e-04.
+Epoch 55, Average Loss (train set) 222.3947758776, Average Reconstruction Loss (train set) 0.0000000000
+Epoch 55, Average Loss (valid set) 242.9309310652, Average Reconstruction Loss (valid set) 0.0000000000
+Adjusting learning rate of group 0 to 3.9093e-04.
+Epoch 56, Average Loss (train set) 221.3932733275, Average Reconstruction Loss (train set) 0.0000000000
+Epoch 56, Average Loss (valid set) 243.0581371173, Average Reconstruction Loss (valid set) 0.0000000000
+Adjusting learning rate of group 0 to 3.7566e-04.
+Epoch 57, Average Loss (train set) 219.3887426034, Average Reconstruction Loss (train set) 0.0000000000
+Epoch 57, Average Loss (valid set) 248.6337281317, Average Reconstruction Loss (valid set) 0.0000000000
+Adjusting learning rate of group 0 to 3.6050e-04.
+Epoch 58, Average Loss (train set) 219.6200235709, Average Reconstruction Loss (train set) 0.0000000000
+Epoch 58, Average Loss (valid set) 243.6208375346, Average Reconstruction Loss (valid set) 0.0000000000
+Adjusting learning rate of group 0 to 3.4549e-04.
+Epoch 59, Average Loss (train set) 217.3307375459, Average Reconstruction Loss (train set) 0.0000000000
+Epoch 59, Average Loss (valid set) 243.4614313489, Average Reconstruction Loss (valid set) 0.0000000000
+Adjusting learning rate of group 0 to 3.3063e-04.
+Epoch 60, Average Loss (train set) 215.9372628395, Average Reconstruction Loss (train set) 0.0000000000
+Epoch 60, Average Loss (valid set) 241.3232388643, Average Reconstruction Loss (valid set) 0.0000000000
+Adjusting learning rate of group 0 to 3.1594e-04.
+Epoch 61, Average Loss (train set) 214.3411202706, Average Reconstruction Loss (train set) 0.0000000000
+Epoch 61, Average Loss (valid set) 241.6906568295, Average Reconstruction Loss (valid set) 0.0000000000
+Adjusting learning rate of group 0 to 3.0143e-04.
+Epoch 62, Average Loss (train set) 212.8151869846, Average Reconstruction Loss (train set) 0.0000000000
+Epoch 62, Average Loss (valid set) 241.0262269006, Average Reconstruction Loss (valid set) 0.0000000000
+Adjusting learning rate of group 0 to 2.8711e-04.
+Epoch 63, Average Loss (train set) 211.7509357023, Average Reconstruction Loss (train set) 0.0000000000
+Epoch 63, Average Loss (valid set) 239.5353167370, Average Reconstruction Loss (valid set) 0.0000000000
+Adjusting learning rate of group 0 to 2.7300e-04.
+Epoch 64, Average Loss (train set) 209.9007743441, Average Reconstruction Loss (train set) 0.0000000000
+Epoch 64, Average Loss (valid set) 240.3195708567, Average Reconstruction Loss (valid set) 0.0000000000
+Adjusting learning rate of group 0 to 2.5912e-04.
+Epoch 65, Average Loss (train set) 208.0636846664, Average Reconstruction Loss (train set) 0.0000000000
+Epoch 65, Average Loss (valid set) 237.8917979259, Average Reconstruction Loss (valid set) 0.0000000000
+Adjusting learning rate of group 0 to 2.4548e-04.
+Epoch 66, Average Loss (train set) 206.1974433968, Average Reconstruction Loss (train set) 0.0000000000
+Epoch 66, Average Loss (valid set) 238.3113030637, Average Reconstruction Loss (valid set) 0.0000000000
+Adjusting learning rate of group 0 to 2.3209e-04.
+Epoch 67, Average Loss (train set) 205.1230574727, Average Reconstruction Loss (train set) 0.0000000000
+Epoch 67, Average Loss (valid set) 240.8236716084, Average Reconstruction Loss (valid set) 0.0000000000
+Adjusting learning rate of group 0 to 2.1896e-04.
+Epoch 68, Average Loss (train set) 203.4670959055, Average Reconstruction Loss (train set) 0.0000000000
+Epoch 68, Average Loss (valid set) 239.6179325099, Average Reconstruction Loss (valid set) 0.0000000000
+Adjusting learning rate of group 0 to 2.0611e-04.
+Epoch 69, Average Loss (train set) 202.5931387672, Average Reconstruction Loss (train set) 0.0000000000
+Epoch 69, Average Loss (valid set) 238.0063481434, Average Reconstruction Loss (valid set) 0.0000000000
+Adjusting learning rate of group 0 to 1.9355e-04.
+Epoch 70, Average Loss (train set) 201.3646764552, Average Reconstruction Loss (train set) 0.0000000000
+Epoch 70, Average Loss (valid set) 237.4935043753, Average Reconstruction Loss (valid set) 0.0000000000
+Adjusting learning rate of group 0 to 1.8129e-04.
+Epoch 71, Average Loss (train set) 199.9568228678, Average Reconstruction Loss (train set) 0.0000000000
+Epoch 71, Average Loss (valid set) 240.7985345542, Average Reconstruction Loss (valid set) 0.0000000000
+Adjusting learning rate of group 0 to 1.6934e-04.
+Epoch 72, Average Loss (train set) 200.0488935198, Average Reconstruction Loss (train set) 0.0000000000
+Epoch 72, Average Loss (valid set) 238.4273462676, Average Reconstruction Loss (valid set) 0.0000000000
+Adjusting learning rate of group 0 to 1.5773e-04.
+Epoch 73, Average Loss (train set) 198.0379340221, Average Reconstruction Loss (train set) 0.0000000000
+Epoch 73, Average Loss (valid set) 237.0239712096, Average Reconstruction Loss (valid set) 0.0000000000
+Adjusting learning rate of group 0 to 1.4645e-04.
+Epoch 74, Average Loss (train set) 197.1632673269, Average Reconstruction Loss (train set) 0.0000000000
+Epoch 74, Average Loss (valid set) 239.5001227489, Average Reconstruction Loss (valid set) 0.0000000000
+Adjusting learning rate of group 0 to 1.3552e-04.
+Epoch 75, Average Loss (train set) 196.0543397712, Average Reconstruction Loss (train set) 0.0000000000
+Epoch 75, Average Loss (valid set) 237.5088198324, Average Reconstruction Loss (valid set) 0.0000000000
+Adjusting learning rate of group 0 to 1.2494e-04.
+Epoch 76, Average Loss (train set) 195.1397926539, Average Reconstruction Loss (train set) 0.0000000000
+Epoch 76, Average Loss (valid set) 235.9547473903, Average Reconstruction Loss (valid set) 0.0000000000
+Adjusting learning rate of group 0 to 1.1474e-04.
+Epoch 77, Average Loss (train set) 193.6258800008, Average Reconstruction Loss (train set) 0.0000000000
+Epoch 77, Average Loss (valid set) 236.7524468695, Average Reconstruction Loss (valid set) 0.0000000000
+Adjusting learning rate of group 0 to 1.0492e-04.
+Epoch 78, Average Loss (train set) 192.6006618140, Average Reconstruction Loss (train set) 0.0000000000
+Epoch 78, Average Loss (valid set) 238.5617398270, Average Reconstruction Loss (valid set) 0.0000000000
+Adjusting learning rate of group 0 to 9.5492e-05.
+Epoch 79, Average Loss (train set) 191.8144831556, Average Reconstruction Loss (train set) 0.0000000000
+Epoch 79, Average Loss (valid set) 237.7980456640, Average Reconstruction Loss (valid set) 0.0000000000
+Adjusting learning rate of group 0 to 8.6460e-05.
+Epoch 80, Average Loss (train set) 190.9311612254, Average Reconstruction Loss (train set) 0.0000000000
+Epoch 80, Average Loss (valid set) 236.4095321881, Average Reconstruction Loss (valid set) 0.0000000000
+Adjusting learning rate of group 0 to 7.7836e-05.
+Epoch 81, Average Loss (train set) 190.2181615395, Average Reconstruction Loss (train set) 0.0000000000
+Epoch 81, Average Loss (valid set) 236.8378862231, Average Reconstruction Loss (valid set) 0.0000000000
+Adjusting learning rate of group 0 to 6.9629e-05.
+Epoch 82, Average Loss (train set) 189.5925126003, Average Reconstruction Loss (train set) 0.0000000000
+Epoch 82, Average Loss (valid set) 236.9069750970, Average Reconstruction Loss (valid set) 0.0000000000
+Adjusting learning rate of group 0 to 6.1847e-05.
+Epoch 83, Average Loss (train set) 188.8108392733, Average Reconstruction Loss (train set) 0.0000000000
+Epoch 83, Average Loss (valid set) 237.2168325774, Average Reconstruction Loss (valid set) 0.0000000000
+Adjusting learning rate of group 0 to 5.4497e-05.
+Epoch 84, Average Loss (train set) 188.1827158131, Average Reconstruction Loss (train set) 0.0000000000
+Epoch 84, Average Loss (valid set) 237.7625238208, Average Reconstruction Loss (valid set) 0.0000000000
+Adjusting learning rate of group 0 to 4.7586e-05.
+Epoch 85, Average Loss (train set) 187.7911137868, Average Reconstruction Loss (train set) 0.0000000000
+Epoch 85, Average Loss (valid set) 236.8801023164, Average Reconstruction Loss (valid set) 0.0000000000
+Adjusting learning rate of group 0 to 4.1123e-05.
+Epoch 86, Average Loss (train set) 186.9282219838, Average Reconstruction Loss (train set) 0.0000000000
+Epoch 86, Average Loss (valid set) 237.5379879124, Average Reconstruction Loss (valid set) 0.0000000000
+Adjusting learning rate of group 0 to 3.5112e-05.
+Epoch 87, Average Loss (train set) 186.3044308602, Average Reconstruction Loss (train set) 0.0000000000
+Epoch 87, Average Loss (valid set) 237.0134702833, Average Reconstruction Loss (valid set) 0.0000000000
+Adjusting learning rate of group 0 to 2.9560e-05.
+Epoch 88, Average Loss (train set) 185.7955115878, Average Reconstruction Loss (train set) 0.0000000000
+Epoch 88, Average Loss (valid set) 238.0338166606, Average Reconstruction Loss (valid set) 0.0000000000
+Adjusting learning rate of group 0 to 2.4472e-05.
+Epoch 89, Average Loss (train set) 185.4075077602, Average Reconstruction Loss (train set) 0.0000000000
+Epoch 89, Average Loss (valid set) 237.1344967345, Average Reconstruction Loss (valid set) 0.0000000000
+Adjusting learning rate of group 0 to 1.9853e-05.
+Epoch 90, Average Loss (train set) 184.7654127451, Average Reconstruction Loss (train set) 0.0000000000
+Epoch 90, Average Loss (valid set) 237.8521216816, Average Reconstruction Loss (valid set) 0.0000000000
+Adjusting learning rate of group 0 to 1.5708e-05.
+Epoch 91, Average Loss (train set) 184.3901506325, Average Reconstruction Loss (train set) 0.0000000000
+Epoch 91, Average Loss (valid set) 237.3777171954, Average Reconstruction Loss (valid set) 0.0000000000
+Adjusting learning rate of group 0 to 1.2042e-05.
+Epoch 92, Average Loss (train set) 184.0023878382, Average Reconstruction Loss (train set) 0.0000000000
+Epoch 92, Average Loss (valid set) 237.1166501453, Average Reconstruction Loss (valid set) 0.0000000000
+Adjusting learning rate of group 0 to 8.8564e-06.
+Epoch 93, Average Loss (train set) 183.7243985115, Average Reconstruction Loss (train set) 0.0000000000
+Epoch 93, Average Loss (valid set) 237.6488691219, Average Reconstruction Loss (valid set) 0.0000000000
+Adjusting learning rate of group 0 to 6.1558e-06.
+Epoch 94, Average Loss (train set) 183.3765749946, Average Reconstruction Loss (train set) 0.0000000000
+Epoch 94, Average Loss (valid set) 237.5730194301, Average Reconstruction Loss (valid set) 0.0000000000
+Adjusting learning rate of group 0 to 3.9426e-06.
+Epoch 95, Average Loss (train set) 183.1351243689, Average Reconstruction Loss (train set) 0.0000000000
+Epoch 95, Average Loss (valid set) 237.4974241703, Average Reconstruction Loss (valid set) 0.0000000000
+Adjusting learning rate of group 0 to 2.2190e-06.
+Epoch 96, Average Loss (train set) 182.9193865651, Average Reconstruction Loss (train set) 0.0000000000
+Epoch 96, Average Loss (valid set) 237.4246095855, Average Reconstruction Loss (valid set) 0.0000000000
+early stop with best model at epoch:  76
+Training is done!
+The best model is at epoch:  76
+Average Loss (in-domain test set) 237.7549663444, Average Reconstruction Loss (in-domain test set) 0.0000000000
+The in-domain test results are saved at:  /mnt/weka/fgeikyan/rf-perception-papers/rf-crate/local/hupr-seed42-20261008/released/results/reproduction_released_rf_crate_mini_1008135727_indomain_test.pkl
+Mapped HuPR: 83 sequences 49800 frames; missing requested IDs: [118, 125, 136, 139, 140, 141, 214, 217, 218, 219, 220]
+finish the test loading
+Average Loss (test set) 255.6099726008, Average Reconstruction Loss (test set) 0.0000000000
+The test results are saved at:  /mnt/weka/fgeikyan/rf-perception-papers/rf-crate/local/hupr-seed42-20261008/released/results/reproduction_released_rf_crate_mini_1008135727.pkl

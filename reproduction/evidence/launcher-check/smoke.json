@@ -1,0 +1,7 @@
+{
+  "arm": "ssr",
+  "loss": 10769.0234375,
+  "seconds_per_step": 0.03265907242894173,
+  "memory": 294682624,
+  "note": "Repeated real batch; excludes I/O and validation"
+}

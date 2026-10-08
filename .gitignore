@@ -9,3 +9,5 @@ move_unused_artifacts.py
 remove_macos_metadata.py
 used_exp.md
 .DS_Store
+/local/
+/weights/

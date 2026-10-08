@@ -1,0 +1,50 @@
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Mapped HuPR: 1 sequences 600 frames; missing requested IDs: []
+Mapped HuPR: 1 sequences 600 frames; missing requested IDs: []
+Mapped HuPR: 1 sequences 600 frames; missing requested IDs: []
+{
+  "sequence": 2,
+  "checks": [
+    {
+      "format": "complex",
+      "frames": [
+        0,
+        300,
+        599
+      ],
+      "exact_inputs_and_float32_targets": true,
+      "cached_label_dtype": "torch.float64",
+      "released_label_dtype": "torch.float32"
+    },
+    {
+      "format": "cartesian",
+      "frames": [
+        0,
+        300,
+        599
+      ],
+      "exact_inputs_and_float32_targets": true,
+      "cached_label_dtype": "torch.float64",
+      "released_label_dtype": "torch.float32"
+    },
+    {
+      "format": "polar",
+      "frames": [
+        0,
+        300,
+        599
+      ],
+      "exact_inputs_and_float32_targets": true,
+      "cached_label_dtype": "torch.float64",
+      "released_label_dtype": "torch.float32"
+    }
+  ]
+}

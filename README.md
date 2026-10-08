@@ -1,5 +1,7 @@
 # RF-CRATE: Towards White-Box Deep Wireless Sensing
 
+Our HuPR reproduction results, protocol findings and commands are in [notes.md](notes.md).
+
 **Xie Zhang** · University of Hong Kong, China  
 **Yina Wang** · MIT, USA  
 **Chenshu Wu** · University of Hong Kong, China

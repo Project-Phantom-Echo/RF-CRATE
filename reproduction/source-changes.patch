@@ -1,0 +1,35 @@
+--- a/main.py
++++ b/main.py
+@@ -88 +88 @@
+-    config['tqdm_disable'] = False  #!!! set it to True if you don't want to see the tqdm bar
++    config['tqdm_disable'] = True  #!!! set it to True if you don't want to see the tqdm bar
+@@ -106 +106 @@
+-    os.environ["CUDA_VISIBLE_DEVICES"] = str(config['cuda_index'])
++    os.environ.setdefault("CUDA_VISIBLE_DEVICES", str(config['cuda_index']))
+@@ -282,0 +283,2 @@
++            elif config['model_name'] == 'rf_crate_mini':
++                regularizer = Subspace_Regularization(num_subspace=4, dim=192, normalize_feature_magnitude=normalize_feature_magnitude)
+--- a/func_utils.py
++++ b/func_utils.py
+@@ -0,0 +1,2 @@
++import copy
++import time,json,random
+@@ -115,0 +118 @@
++    epoch_records = []
+@@ -116,0 +120 @@
++        epoch_started = time.monotonic()
+@@ -179,0 +184,2 @@
++            if not torch.isfinite(loss):
++                raise RuntimeError('Nonfinite training loss; stop instead of wasting epochs')
+@@ -214 +220 @@
+-            best_model_weights = model.state_dict()
++            best_model_weights = copy.deepcopy(model.state_dict())
+@@ -216,0 +223 @@
++            torch.save(best_model_weights, os.path.join(config['trained_model_folder'], 'best.pth'))
+@@ -220,0 +228,6 @@
++        epoch_records.append(dict(epoch=epoch+1, train_loss=loss_epoch/len(train_loader), validation_loss=loss_all/len(validation_loader), validation_mpjpe=float(metric_all), seconds=time.monotonic()-epoch_started))
++        with open(os.path.join(config['trained_model_folder'], 'history.json'), 'w') as f:
++            json.dump(epoch_records, f, indent=2)
++        state = dict(epoch=epoch+1, model=model.state_dict(), optimizer=optimizer.state_dict(), scheduler=scheduler.state_dict(), best_loss=best_loss, best_epoch=best_model_epoch, best_model=best_model_weights, torch_rng=torch.get_rng_state(), cuda_rng=torch.cuda.get_rng_state_all(), numpy_rng=np.random.get_state(), python_rng=random.getstate(), loader_rng=train_loader.generator.get_state())
++        target = os.path.join(config['trained_model_folder'], 'latest.pth')
++        torch.save(state, target+'.partial');os.replace(target+'.partial',target)

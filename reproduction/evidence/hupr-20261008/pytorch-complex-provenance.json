@@ -1,0 +1,5 @@
+{
+  "url": "https://files.pythonhosted.org/packages/e4/1c/c82ada048f856d0a5be68840f48227189cdde2c59b7d3009eacb804f6a98/pytorch-complex-0.1.1.tar.gz",
+  "sha256": "d341d35da9cffb49fb6ef5fcb8566f0a76926634c428a4c39f327b1952fbb914",
+  "repair": "Added missing HISTORY.rst only; torchcomplex source unchanged"
+}

@@ -1,0 +1,11 @@
+{
+  "job": 318199,
+  "state": "COMPLETED",
+  "exit_code": "0:0",
+  "elapsed_seconds": 13,
+  "source_replay_exact": true,
+  "non_path_seed42_configuration_exact": true,
+  "completed_run_duplicate_guard_passed": true,
+  "python_compile_passed": true,
+  "shell_syntax_passed": true
+}

@@ -1,0 +1,14 @@
+[
+  {
+    "file": "reproduction_crate_crate_small_1008135329.pkl",
+    "prediction_coordinate_sd_mean": 0.0015070621261475269,
+    "target_coordinate_sd_mean": 18.80432952530693,
+    "max_prediction_coordinate_range": 0.06182861328125
+  },
+  {
+    "file": "reproduction_crate_crate_small_1008135329_indomain_test.pkl",
+    "prediction_coordinate_sd_mean": 0.0015282480790762593,
+    "target_coordinate_sd_mean": 19.13665436464657,
+    "max_prediction_coordinate_range": 0.05926513671875
+  }
+]

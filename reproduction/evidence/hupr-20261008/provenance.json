@@ -1,0 +1,12 @@
+{
+  "base_commit": "8713663abd8578683544c0cf9c40c61064e8f06e",
+  "changes": [
+    "snapshot best weights with deepcopy",
+    "save best/latest and optimizer/scheduler/RNG",
+    "preserve Slurm GPU visibility",
+    "explicit mini SSR arm vs released effective disabled arm",
+    "quiet progress",
+    "mapped exact input conversion"
+  ],
+  "data_file_order": "/mnt/weka/fgeikyan/rf-perception-papers/rf-crate/local/hupr-20261008/cache/file_order.json"
+}

@@ -1,0 +1,27 @@
+{
+  "arm": "ssr",
+  "in_domain": {
+    "samples": 14032,
+    "mean": 15.536185230605279,
+    "population_sd": 7.793805738220785
+  },
+  "cross_domain": {
+    "samples": 49792,
+    "mean": 17.1553971498563,
+    "population_sd": 8.86984999856237
+  },
+  "paper_notebook_mean": 16.345791190230788,
+  "paper_notebook_spread": 8.331827868391578,
+  "seed": 42,
+  "trained_epochs": 84,
+  "selected_epoch": 64,
+  "last_saved_resume_epoch": 83,
+  "slurm_job": "318134",
+  "selected_weights_verified": true,
+  "best_checkpoint_sha256": "665ef4291d3f9122d13db3a5b6a4f216e033e7d771164ac0e149b0e2813c7192",
+  "prediction_sha256": {
+    "reproduction_ssr_rf_crate_mini_1008135758.pkl": "02ec4135db9047b1fa655ffcfcbcec66b533d9b7e6419222db4b46613d50a840",
+    "reproduction_ssr_rf_crate_mini_1008135758_indomain_test.pkl": "933c5f807b92dab11f7f203a8328e85455098cce1e57124b8d1a39ffc9d01fbe"
+  },
+  "elapsed_seconds": 3517
+}

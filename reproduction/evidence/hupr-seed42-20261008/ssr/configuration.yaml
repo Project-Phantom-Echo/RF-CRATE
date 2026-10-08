@@ -1,0 +1,281 @@
+task: reproduction_ssr
+init_rand_seed: 42
+tqdm_disable: true
+tensorboard_folder: /mnt/weka/fgeikyan/rf-perception-papers/rf-crate/local/hupr-seed42-20261008/ssr/tensorboard/
+trained_model_folder: /mnt/weka/fgeikyan/rf-perception-papers/rf-crate/local/hupr-seed42-20261008/ssr/weights/
+model_save_enable: true
+log_folder: /mnt/weka/fgeikyan/rf-perception-papers/rf-crate/local/hupr-seed42-20261008/ssr/results/
+log_enable: true
+num_epochs: 100
+early_stop: 20
+batch_size: 64
+num_workers: 8
+optimizer: AdamW
+lr: 0.001
+weight_decay: 0.004
+max_norm: None
+criterion: bone_loss
+resume_training: false
+metric: mpjpe_2d
+model_name: rf_crate_mini
+model_input_shape: BCHW
+num_classes: 28
+in_channels: 16
+image_size:
+- 64
+- 64
+patch_size:
+- 16
+- 16
+feedforward: type1
+relu_type: crelu
+patch_embedding_method: conv_patch
+mlp_head_type: crate_version
+output_type: magnitude
+ssr: true
+ssr_lambda: 5.0
+ppe: None
+dataset_name: HuPR
+dataset_path: /mnt/weka/fgeikyan/rf-perception-papers/rf-crate/local/hupr-seed42-20261008/cache
+preload: true
+data_split: []
+format: complex
+train_dataset:
+  file_indexes:
+  - 0
+  - 1
+  - 2
+  - 3
+  - 4
+  - 8
+  - 9
+  - 10
+  - 17
+  - 18
+  - 19
+  - 21
+  - 22
+  - 23
+  - 24
+  - 28
+  - 29
+  - 30
+  - 32
+  - 33
+  - 35
+  - 38
+  - 40
+  - 41
+  - 46
+  - 48
+  - 49
+  - 55
+  - 56
+  - 58
+  - 61
+  - 62
+  - 63
+  - 66
+  - 67
+  - 68
+  - 69
+  - 70
+  - 71
+  - 72
+  - 74
+  - 77
+  - 78
+  - 79
+  - 80
+  - 81
+  - 82
+  - 83
+  - 84
+  - 85
+  - 86
+  - 89
+  - 90
+  - 91
+  - 93
+  - 94
+  - 95
+  - 97
+  - 98
+  - 100
+  - 101
+  - 103
+  - 105
+  - 106
+  - 107
+  - 108
+  - 109
+  - 110
+  - 111
+  - 112
+  - 113
+  - 114
+  - 115
+  - 116
+  - 117
+  - 119
+  - 120
+  - 123
+  - 126
+  - 127
+  - 128
+  - 129
+  - 130
+  - 131
+  - 132
+  - 133
+  - 134
+  - 135
+  - 137
+  - 138
+  - 142
+  - 143
+  - 144
+  - 145
+  - 146
+  - 148
+  - 151
+  - 152
+  - 155
+  - 156
+  - 157
+  - 160
+  - 161
+  - 168
+  - 171
+  - 172
+  - 173
+  - 174
+  - 176
+  - 177
+  - 178
+  - 181
+  - 182
+  - 183
+  - 184
+  - 187
+  - 188
+  - 191
+  - 193
+  - 194
+  - 195
+  - 197
+  - 203
+  - 206
+  - 207
+  - 208
+  - 209
+  - 210
+  - 212
+  - 213
+  - 215
+  - 221
+  - 222
+  - 223
+  - 224
+  - 227
+  - 230
+  - 231
+  - 232
+  - 233
+  - 234
+test_dataset:
+  file_indexes:
+  - 5
+  - 6
+  - 7
+  - 11
+  - 12
+  - 13
+  - 14
+  - 15
+  - 16
+  - 20
+  - 25
+  - 26
+  - 27
+  - 31
+  - 34
+  - 36
+  - 37
+  - 39
+  - 42
+  - 43
+  - 44
+  - 45
+  - 47
+  - 50
+  - 51
+  - 52
+  - 53
+  - 54
+  - 57
+  - 59
+  - 60
+  - 64
+  - 65
+  - 73
+  - 75
+  - 76
+  - 87
+  - 88
+  - 92
+  - 96
+  - 99
+  - 102
+  - 104
+  - 118
+  - 121
+  - 122
+  - 124
+  - 125
+  - 136
+  - 139
+  - 140
+  - 141
+  - 147
+  - 149
+  - 150
+  - 153
+  - 154
+  - 158
+  - 159
+  - 162
+  - 163
+  - 164
+  - 165
+  - 166
+  - 167
+  - 169
+  - 170
+  - 175
+  - 179
+  - 180
+  - 185
+  - 186
+  - 189
+  - 190
+  - 192
+  - 196
+  - 198
+  - 199
+  - 200
+  - 201
+  - 202
+  - 204
+  - 205
+  - 211
+  - 214
+  - 216
+  - 217
+  - 218
+  - 219
+  - 220
+  - 225
+  - 226
+  - 228
+  - 229

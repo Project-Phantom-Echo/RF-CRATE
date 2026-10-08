@@ -1,0 +1,47 @@
+"""Execute the frozen RF-CRATE source with its recorded efficient HuPR loader."""
+import os,sys,argparse,runpy,json,hashlib,time
+from pathlib import Path
+ROOT=Path(__file__).resolve().parents[1]
+CAMPAIGN=ROOT/'local/hupr-20261008'
+
+def main():
+    p=argparse.ArgumentParser();p.add_argument('--arm',choices=['released','ssr','crate'],required=True)
+    p.add_argument('--smoke',action='store_true');a=p.parse_args()
+    os.umask(0);sys.path.insert(0,str(CAMPAIGN/'source'))
+    import torch,yaml,numpy as np
+    torch.set_num_threads(1)
+    import Datasets
+    from hupr_runtime import MappedHuPR
+    Datasets.HuPR_Dataset=MappedHuPR
+    source=CAMPAIGN/'source';config_name='reproduction_'+a.arm
+    cfg=yaml.safe_load((source/'Configurations/HuPR'/f'{config_name}.yaml').read_text())
+    out=CAMPAIGN/a.arm;out.mkdir(exist_ok=True)
+    if a.smoke:
+        from Models import get_registered_models
+        from Datasets import HuPR_data_shape_converter
+        from func_utils import BoneLength_Position_Loss,Subspace_Regularization
+        torch.manual_seed(cfg['init_rand_seed']);torch.cuda.manual_seed(cfg['init_rand_seed']);np.random.seed(cfg['init_rand_seed'])
+        assert torch.cuda.is_available()
+        ds=MappedHuPR({**cfg,**cfg['train_dataset']})
+        convert=HuPR_data_shape_converter(cfg);net=get_registered_models(cfg['model_name'],cfg).cuda()
+        x=torch.stack([ds[i][0] for i in range(cfg['batch_size'])]);y=torch.stack([ds[i][1] for i in range(cfg['batch_size'])]).float().cuda().reshape(cfg['batch_size'],-1)
+        x=convert.shape_convert(x).cuda();opt=torch.optim.AdamW(net.parameters(),lr=cfg['lr']*.1,betas=(.9,.99),weight_decay=cfg['weight_decay']);criterion=BoneLength_Position_Loss().cuda()
+        regularizer=Subspace_Regularization(4,192).cuda() if a.arm=='ssr' else None
+        times=[]
+        for step in range(12):
+            t=time.monotonic();opt.zero_grad();result=net(x)
+            if isinstance(result,tuple):pred,features=result
+            else:pred=result
+            loss=criterion(pred,y)
+            if regularizer is not None:loss=loss+cfg['ssr_lambda']*regularizer(features)
+            assert torch.isfinite(loss);loss.backward();assert all(p.grad is None or torch.isfinite(p.grad).all() for p in net.parameters())
+            opt.step();torch.cuda.synchronize()
+            if step>=2:times.append(time.monotonic()-t)
+        result=dict(arm=a.arm,loss=loss.item(),seconds_per_step=float(np.mean(times)),memory=torch.cuda.max_memory_allocated(),note='Repeated real batch; excludes I/O and validation')
+        (out/'smoke.json').write_text(json.dumps(result,indent=2)+'\n');print(result,flush=True);return
+    if (out/'started.json').exists():raise RuntimeError('Already started; refuse duplicate run')
+    (out/'started.json').write_text(json.dumps({'time':time.time(),'slurm_job':os.environ.get('SLURM_JOB_ID')})+'\n')
+    os.chdir(source);sys.argv=['main.py','--config_file',config_name,'--mode','0']
+    runpy.run_path('main.py',run_name='__main__')
+    (out/'complete.json').write_text(json.dumps({'exit_code':0,'time':time.time()})+'\n')
+if __name__=='__main__':main()
